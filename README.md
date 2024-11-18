@@ -13,8 +13,8 @@ Tutorial and sample scripts to run and experiment with multimodal LLMs for surve
   
   * 3B parameters : consumes approx 3-8 GB Ram/VRam depending on the quantisation
     * [MiniCPM-V](https://huggingface.co/openbmb/MiniCPM-V) - Small model but highly efficient for Visual Question Answering    
-    * Phi-V - Microsoft 
-    * Paligemma - Google
+    * [Phi-3.5](https://huggingface.co/microsoft/Phi-3.5-vision-instruct) - Microsoft 
+    * [Paligemma](https://huggingface.co/blog/paligemma) - Google
 
 * Other Notable Free API service providers
   * Google AI studio 
@@ -22,7 +22,7 @@ Tutorial and sample scripts to run and experiment with multimodal LLMs for surve
 
 
 ## Libraries to use for improving efficiency :
-
-
+* [Bits and Bytes](https://github.com/bitsandbytes-foundation/bitsandbytes) : Compatible with huggingFace and transformers, helps run quantised models in GPU contrained environment
+* [VLM Inference](https://docs.vllm.ai/en/latest/models/vlm.html) : Optimises inference speed for supported Vision and Language models. 
 ### Prompt Engineering Tutorial and tips : 
 * Best practices to follow as per [OpenAI](https://platform.openai.com/docs/guides/prompt-engineering) and [Google](https://cloud.google.com/discover/what-is-prompt-engineering#related-google-cloud-products-and-services) 
