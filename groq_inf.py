@@ -1,6 +1,6 @@
 from groq import Groq
 import base64
-API = "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"
+API = "Enter API KEY"
 
 # Function to encode the image
 def encode_image(image_path):
