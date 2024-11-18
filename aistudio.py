@@ -6,7 +6,7 @@ import os
 
 # Configure the API key (replace with your key directly if not using env var)
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')  # For prod usage, use environment variable.
-GOOGLE_API_KEY = "AIzaSyDpE0coBW2Qf792lU7YL-FsT27bRyhHPYY"
+GOOGLE_API_KEY = "Enter API KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
