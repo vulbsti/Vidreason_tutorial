@@ -1,0 +1,18 @@
+# Core dependencies
+flask==3.0.0
+opencv-python==4.8.1
+numpy==1.24.3
+pillow==10.0.0
+
+# AI/ML dependencies
+google-generativeai==0.3.2
+groq==0.4.1
+
+# Utility dependencies
+requests==2.31.0
+python-dotenv==1.0.0  # For environment variable management
+
+# Optional dependencies for development
+pytest==7.4.3  # For testing
+black==23.11.0  # For code formatting
+pylint==3.0.2  # For code linting
