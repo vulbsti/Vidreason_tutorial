@@ -6,7 +6,7 @@ import time
 from datetime import datetime
 import os
 
-API = "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"
+API = ""
 
 def encode_frame(frame):
     # Encode frame to base64
